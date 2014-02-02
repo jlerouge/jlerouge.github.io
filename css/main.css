@@ -19,7 +19,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	color: #ff9918;
+	color: #e61400;
 }
 
 h1 {
@@ -28,9 +28,10 @@ h1 {
 
 p { margin: 1em 0; }
 
-a         { color:#ff9918; }
-a:hover   { color: #ffad46; }
-a:visited { color: #ff9918; }
+a         { color:#e61400; }
+a:hover   { color: #d63400; }
+a:visited { color: #a3007a; }
+a:visited:hover { color: #d63400; }
 
 /*****************************************************************************/
 /*
@@ -89,17 +90,17 @@ a:visited { color: #ff9918; }
 }
 
 .title a {
-	color: #ff9918;
+	color: #e61400;
+}
+
+.title a:hover {
+	color: #d63400;
 }
 
 .subtitle {
 	color: #ccc;
     padding-bottom: 1em;
     margin-left: 1em;
-}
-
-.title a:hover {
-	color: #ffad46;
 }
 
 .menu {
@@ -112,7 +113,7 @@ a.extra {
     text-decoration: none;
     margin-left: 0.3em;
     padding: 2px 4px 4px 4px;
-    background:#101010;
+    background:#151515;
     background-size: auto 200%;
     background-position: 0 100%;
     -moz-transition:background-position 0.5s ease 0.1s;
@@ -128,9 +129,9 @@ a.extra {
 
 a.extra:hover {
     color: #ddd;
-    background-image: -moz-linear-gradient(#de7818, #101010);
-    background-image: -webkit-linear-gradient(#de7818, #101010);
-    background-image: linear-gradient(#de7818, #101010);
+    background-image: -moz-linear-gradient(#d63400, #151515);
+    background-image: -webkit-linear-gradient(#d63400, #151515);
+    background-image: linear-gradient(#d63400, #151515);
     background-position: 0 0;
 }
 
@@ -144,15 +145,18 @@ a.extra:hover {
     border-top: 1px dashed #eee;
     margin-top: 2em;
     overflow: hidden;
+    padding-top: 1em;
 }
 
 .footer .contact {
     float: left;
-    margin-right: 3em;
 }
 
-.footer .contact a {
-    color: #8085C1;
+.footer .contact img {
+    margin-left: 2em;
+    margin-right: 0.3em;
+    width: 12%;
+    vertical-align: middle;
 }
 
 .footer .rss {
