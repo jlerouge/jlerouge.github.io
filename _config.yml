@@ -1,8 +1,9 @@
 name: Julien Lerouge
 markdown: redcarpet
+safe: true
+lsi: false
 pygments: true
 url: http://julien.lerouge.me
-
 author:
     pseudo: jlerouge
     display_name: Julien Lerouge
