@@ -4,6 +4,8 @@ safe: true
 lsi: false
 pygments: true
 url: http://julien.lerouge.me
+paginate: 5
+paginate_path: "blog/page:num"
 author:
     pseudo: jlerouge
     display_name: Julien Lerouge

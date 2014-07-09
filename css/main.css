@@ -1,12 +1,4 @@
-/*****************************************************************************/
-
-/*
-/* Common
-/*
-/*****************************************************************************/
-
-/* Global Reset */
-
+/* Common */
 body {
     background: url('/img/bg.png');
     text-align: center;
@@ -14,12 +6,7 @@ body {
     font-size: small;
     color: #666;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     color: #0085cc;
 }
 p {
@@ -39,13 +26,8 @@ a:visited {
 a:visited:hover {
     color: #2ca7e8;
 }
-/*****************************************************************************/
 
-/*
-/* Home
-/*
-/*****************************************************************************/
-
+/* Home */
 .posts {
     list-style-type: none;
     margin-bottom: 2em;
@@ -58,13 +40,8 @@ a:visited:hover {
     font-family: Monaco, "Courier New", monospace;
     font-size: 80%;
 }
-/*****************************************************************************/
 
-/*
-/* Site
-/*
-/*****************************************************************************/
-
+/* Site */
 .content {
     text-align: justify;
     max-width: 80em;
@@ -77,16 +54,14 @@ a:visited:hover {
     padding-top: 2em;
     background-color: white;
     padding-bottom: 2em;
+    box-shadow: 0px 8px 16px #b1d1e2;
 }
 .box {
     margin-left: 30%;
     margin-right: 30%;
     min-width: 11em;
     text-align: right;
-    border-bottom: 1px solid grey;
-    border-top: 1px solid grey;
-    border-left: 2px dashed grey;
-    border-right: 2px dashed grey;
+    border: 1px solid grey;
     border-radius: 16px;
     -moz-border-radius: 16px;
     -webkit-border-radius: 16px;
@@ -122,8 +97,6 @@ a:visited:hover {
 }
 .menu {
     text-align: center;
-    margin-left: 30%;
-    margin-right: 30%;
     min-width: 11em;
     margin-top: 1px;
 }
@@ -156,14 +129,21 @@ a.extra:hover {
     margin: 0em auto 0em;
     border-top : 1px solid grey;
     padding-top: 0.5em;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
 }
 .contact {
     float: right;
-/*    text-align: right; */
+    padding-right: 1em;
+    padding-bottom: 1em;
 }
 code {
     border: 1px solid grey;
 }
 pre code {
     border: none;
+}
+.pagination {
+    width: 100%;
+    text-align: center;
 }
