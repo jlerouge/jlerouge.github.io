@@ -1,7 +1,8 @@
 ---
-layout: post
-title:  "Welcome to Jekyll!"
-date:   2014-02-01 10:39:32
+layout:     post
+title:      "Welcome to Jekyll!"
+date:       2014-02-01 10:39:32
+comments:   true
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
