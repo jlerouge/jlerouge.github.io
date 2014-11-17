@@ -26,17 +26,23 @@ a:visited {
 a:visited:hover {
     color: #2ca7e8;
 }
+img, object, embed, canvas, video, audio, picture {
+    max-width: 100%;
+	height: auto;
+}
 
 /* Home */
 .posts {
     list-style-type: none;
-    margin-bottom: 2em;
+}
+.posts li:before {
+    content: "\2023  ";
 }
 .posts li {
     line-height: 1.75em;
 }
 .posts span {
-    color: #aaa;
+    color: #888;
     font-family: Monaco, "Courier New", monospace;
     font-size: 80%;
 }
@@ -44,98 +50,48 @@ a:visited:hover {
 /* Site */
 .content {
     text-align: justify;
-    max-width: 80em;
+    max-width: 60em;
     padding-left: 2em;
     padding-right: 2em;
     margin: 0em auto 0em;
     line-height: 1.5em;
 }
 .header {
-    padding-top: 2em;
     background-color: white;
-    padding-bottom: 2em;
     box-shadow: 0px 8px 16px #b1d1e2;
 }
-.box {
-    margin-left: 30%;
-    margin-right: 30%;
-    min-width: 11em;
-    text-align: right;
-    border: 1px solid grey;
-    border-radius: 16px;
-    -moz-border-radius: 16px;
-    -webkit-border-radius: 16px;
+.box a {
+    text-decoration: none;
 }
 .box img {
-    margin: 12px;
+    margin: 8px;
     border: solid 2px;
     border-color: grey;
     border-radius: 8px;
     -moz-border-radius: 8px;
     -webkit-border-radius: 8px;
 }
-.box a {
-    font-weight: bold;
-    text-decoration: none;
-}
-.box-title {
-    float: left;
-    text-align: left;
-    padding-left: 1em;
-}
 .title {
-    margin-bottom: 0.2em;
-}
-.title a {
-    color: #0085cc;
-}
-.title a:hover {
-    color: #2ca7e8;
+    font-weight: bold;
 }
 .subtitle {
     color: grey;
 }
-.menu {
-    text-align: center;
-    min-width: 11em;
-    margin-top: 1px;
-}
-a.extra {
+a.item {
     text-decoration: none;
-    padding: 2px 4px 4px 4px;
-    background: transparent;
-    background-size: auto 200%;
-    background-position: 0 100%;
-    -moz-transition: background-position 0.5s ease 0.1s;
-    -webkit-transition: background-position 0.5s ease 0.1s;
-    transition: background-position 0.5s ease 0.1s;
-    border: 1px solid grey;
-    -moz-border-radius: 0px 0px 4px 4px;
-    -webkit-border-radius: 0px 0px 4px 4px;
-    border-radius: 0px 0px 4px 4px;
-}
-a.extra:hover {
-    color: #fff;
-    background-image: -moz-linear-gradient(#2ca7e8, transparent);
-    background-image: -webkit-linear-gradient(#2ca7e8, transparent);
-    background-image: linear-gradient(#2ca7e8, transparent);
-    background-position: 0 0;
 }
 .meta {
     color: #444;
+    font-family: Monaco, "Courier New", monospace;
 }
 .footer {
-    max-width: 76em;
+    max-width: 56em;
     margin: 0em auto 0em;
     border-top : 1px solid grey;
-    padding-top: 0.5em;
-    padding-right: 0.5em;
-    padding-left: 0.5em;
+    padding: 0.5em;
 }
-.contact {
-    float: right;
-    padding-right: 1em;
-    padding-bottom: 1em;
+.social {
+    text-align: right;
 }
 code {
     border: 1px solid grey;
@@ -147,3 +103,137 @@ pre code {
     width: 100%;
     text-align: center;
 }
+#nav {
+    display: none;
+}
+
+/* Mobile */
+@media screen and (max-width: 839px) {
+    h1 {
+        font-size: 4vw;
+    }
+    h2 {
+        font-size: 3vw;
+    }
+    .header {
+        text-align: left;
+        margin: 8px;
+        border-radius: 8px;
+        -moz-border-radius: 8px;
+        -webkit-border-radius: 8px;
+    }
+    .box {
+        display: inline;
+    }
+    .box img {
+        width: 10%;
+    }
+    .box-title {
+        vertical-align: top;
+        display: inline-block;
+    }
+    .title {
+        margin: 8px 0px 0px 0px;
+    }
+    .subtitle {
+        font-size: 8pt;   
+    }
+    .menu {
+        display: block;
+        text-align: center;
+    }
+    a.item {
+        visibility: hidden;
+        font-size: 3vw;
+        background: #ddd;
+        display: block;
+        border-top: 1px solid #eee;
+        border-bottom: 1px solid #ccc;
+        margin-top: -4.5vw;
+        -webkit-transition: margin-top 0.5s ease 0.1s;
+        transition: margin-top 0.5s ease 0.1s;
+    }
+    a.item:hover {
+        background: #eee;
+    }
+    #nav:checked ~ .menu {
+        border-top: 1px solid #ccc;
+    }
+    #nav:checked ~ .menu > a.item {
+        visibility: visible;
+        margin-top: 0vw;
+    }
+    #nav:checked ~ #bars {
+        border-color: #999;
+        background-image: -moz-linear-gradient(#aaa, #ddd);
+        background-image: -webkit-linear-gradient(#aaa, #ddd);
+        background-image: linear-gradient(#aaa, #ddd);
+    }
+    #bars {
+        float: right;
+        margin-top: 3vw;
+        margin-right: 3vw;
+        padding: 2px 6px 2px 6px;
+        border: 1px solid #bbb;
+        border-radius: 4px;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        background-image: -moz-linear-gradient(transparent, #ccc);
+        background-image: -webkit-linear-gradient(transparent, #ccc);
+        background-image: linear-gradient(transparent, #ccc);
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 840px) {
+    .header {
+        padding: 1em 0em 1em 0em;
+    }
+    .box {
+        margin-left: 30%;
+        margin-right: 30%;
+        text-align: right;
+        border: 1px solid grey;
+        border-radius: 8px;
+        -moz-border-radius: 8px;
+        -webkit-border-radius: 8px;
+    }
+    .box-title {
+        float: left;
+        text-align: left;
+        padding-left: 1em;
+    }
+    .title {
+        font-size: 2em;
+        margin-top: 0.4em;
+        margin-bottom: 0.2em;
+    }
+    .menu {
+        text-align: center;
+        margin-top: 1px;
+    }
+    #bars {
+        display: none;
+    }
+    a.item {
+        padding: 2px 4px 4px 4px;
+        background: transparent;
+        background-size: auto 200%;
+        background-position: 0 100%;
+        -moz-transition: background-position 0.5s ease 0.1s;
+        -webkit-transition: background-position 0.5s ease 0.1s;
+        transition: background-position 0.5s ease 0.1s;
+        border: 1px solid grey;
+        -moz-border-radius: 0px 0px 4px 4px;
+        -webkit-border-radius: 0px 0px 4px 4px;
+        border-radius: 0px 0px 4px 4px;
+    }
+    a.item:hover {
+        color: #fff;
+        background-image: -moz-linear-gradient(#2ca7e8, transparent);
+        background-image: -webkit-linear-gradient(#2ca7e8, transparent);
+        background-image: linear-gradient(#2ca7e8, transparent);
+        background-position: 0 0;
+    }
+}
+

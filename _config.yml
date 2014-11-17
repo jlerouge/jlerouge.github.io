@@ -9,6 +9,8 @@ paginate_path: "blog/page:num"
 author:
     pseudo: jlerouge
     display_name: Julien Lerouge
+    activity: R&D engineer @ <a href="http://www.litislab.fr">LITIS</a> laboratory
+    slogan: C++ and Python enthusiast
     github: jlerouge
     twitter: jujurackham
     linkedin: 176494391
