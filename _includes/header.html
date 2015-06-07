@@ -1,18 +1,23 @@
-<div class="header">
+<header>
     <div class="box">
-        <img src="http://www.gravatar.com/avatar/{{ site.author.gravatar }}?s=80" alt="{{ site.author.display_name }}" width="80" height="80"/>
+        <img class="avatar" src="http://www.gravatar.com/avatar/{{ site.author.gravatar }}?s=192" alt="{{ site.author.display_name }}"/>
+        <img class="qr" src="/img/orcid.png" alt="QR Code to ORCID profile"/>
         <div class="box-title">
             <h1 class="title"><a href="{{ site.url }}">{{ site.name }}</a></h1>
-            <div class="subtitle">{{ site.author.activity }}<br />{{ site.author.slogan }}</div>
+            <div class="subtitle">
+                <div class="job">{{ site.author.job }}</div>
+                <div class="activity">{{ site.author.activity }}</div>
+            </div>
         </div>
     </div>
-    <input type="checkbox" id="nav"/>
-    <label id="bars" for="nav"><i class="fa fa-bars fa-2x"></i></label>
-    <div class="menu" id="trolo">
+    <input type="checkbox" id="togglenav"/>
+    <label class="bars" for="togglenav"></label>
+    <nav>
         <a class="item" href="/">Home</a>
         <a class="item" href="/news">News</a>
+        <a class="item" href="/cv">CV</a>
         <a class="item" href="/soft">Software</a>
         <a class="item" href="/pub">Publications</a>
         <a class="item" href="/contact">Contact</a>
-    </div>
-</div>
+    </nav>
+</header>

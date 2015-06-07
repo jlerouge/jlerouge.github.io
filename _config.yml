@@ -2,17 +2,19 @@ name: Julien Lerouge
 markdown: redcarpet
 safe: true
 lsi: false
-pygments: true
+highlighter: pygments
 url: http://julien.lerouge.me
 paginate: 5
 paginate_path: "news/page:num"
 author:
     pseudo: jlerouge
     display_name: Julien Lerouge
-    activity: R&D engineer @ <a href="http://www.litislab.fr">LITIS</a> laboratory
-    slogan: C++ and Python enthusiast
+    job: R&D engineer @ <a href="http://www.litislab.fr">LITIS</a> laboratory
+    activity: <ul><li><a href="http://en.wikipedia.org/wiki/Machine_learning">Machine learning</a></li><li><a href="http://en.wikipedia.org/wiki/Document_layout_analysis">Document layout analysis</a></li></ul>
     github: jlerouge
-    twitter: jujurackham
+    twitter: julien_lerouge
     linkedin: 176494391
     googleplus: JulienLerouge
-    gravatar: b3a8c2b99efbf289c48ddb39e24a1199
+    gravatar: 8abcd6b65764dea142df693e8a2c9b0e
+    scholar: qmL0h5cAAAAJ
+    orcid: 0000-0003-0363-9304
