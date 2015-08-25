@@ -5,12 +5,12 @@ lsi: false
 highlighter: pygments
 url: http://julien.lerouge.me
 paginate: 5
-paginate_path: "news/page:num"
+paginate_path: "blog/page:num"
 author:
     pseudo: jlerouge
     display_name: Julien Lerouge
     job: R&D engineer @ <a href="http://www.litislab.fr">LITIS</a> laboratory
-    activity: <ul><li><a href="http://en.wikipedia.org/wiki/Machine_learning">Machine learning</a></li><li><a href="http://en.wikipedia.org/wiki/Document_layout_analysis">Document layout analysis</a></li></ul>
+    activity: <ul class="no-bullets"><li><a href="http://en.wikipedia.org/wiki/Machine_learning">Machine learning</a></li><li><a href="http://en.wikipedia.org/wiki/Document_layout_analysis">Document layout analysis</a></li></ul>
     github: jlerouge
     twitter: julien_lerouge
     linkedin: 176494391
@@ -18,3 +18,60 @@ author:
     gravatar: 8abcd6b65764dea142df693e8a2c9b0e
     scholar: qmL0h5cAAAAJ
     orcid: 0000-0003-0363-9304
+    researchgate: Julien_Lerouge2
+
+coauthors:
+    jl:
+        name: J. Lerouge
+        url: http://julien.lerouge.me
+        email: julien.lerouge@litislab.fr
+    cc:
+        name: C. Chatelain
+        url: http://clement.chatelain.free.fr/
+        email: clement.chatelain@insa-rouen.fr
+    rh:
+        name: R. Hérault
+        url: http://asi.insa-rouen.fr/enseignants/~rherault/
+        email: romain.herault@insa-rouen.fr
+    rm:
+        name: R. Modzelewski
+        url: https://www.linkedin.com/pub/romain-modzelewski/6/42/a50
+        email: romain.modzelewski@chb.unicancer.fr
+    fj:
+        name: F. Jardin
+    sa:
+        name: S. Adam
+        url: http://www.litislab.eu/Members/sadam
+        email: sebastien.adam@univ-rouen.fr
+    ph:
+        name: P. Héroux
+        url: http://pierre.heroux.free.fr
+        email: pierre.heroux@univ-rouen.fr
+    mh:
+        name: M. Hammami
+    pt:
+        name: P. Tranouez
+        url: http://oldwww.litislab.eu/Members/ptranouez
+        email: pierrick.tranouez@univ-rouen.fr
+    sn:
+        name: S. Nicolas
+        email: stephane.nicolas@univ-rouen.fr
+    tp:
+        name: T. Paquet
+        url: http://thierry.paquet.free.fr
+        email: thierry.paquet@univ-rouen.fr
+    plb:
+        name: P. Le Bodic
+        email: lebodic@gatech.edu
+    za:
+        name: Z. Abu-Aisheh
+    rr:
+        name: R. Raveaux
+
+affiliations:
+    litis-insa: Normandie Université, LITIS (EA 4108-FR CNRS 3638), INSA de Rouen, 76800 Saint-Étienne-du-Rouvray, France
+    litis-univ-rouen: LITIS EA 4108, BP 12, University of Rouen, 76801, Saint-Etienne du Rouvray, France
+    nuclear-becquerel: Department of Nuclear Medicine, Henri Becquerel Cancer Center and Rouen University Hospital, 76000 Rouen, France
+    hematology-becquerel: Department of Clinical Hematology and INSERM U918 Unit, Henri Becquerel Cancer Center, 76000 Rouen, France
+    isye-gatech: H. Milton Stewart School of Industrial and Systems Engineering, Georgia Institute of Technology, 765 Ferst Drive NW, Atlanta, 30332, USA
+    l3i: L3I Laboratory, University of La Rochelle, av M. Crépeau, 17042 La Rochelle Cedex 1, France

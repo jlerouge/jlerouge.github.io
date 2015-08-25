@@ -1,0 +1,27 @@
+---
+layout: default
+title: Category
+---
+
+<section class="categories">
+  <header><h2>Categories</h2></header>
+	{% for cat in site.categories %}
+    {% assign cat_name = cat | first %}
+    {% if cat_name != "publication" %}
+	<article class="category" id="{{ cat_name }}">
+	<header><h3><i class="fa fa-{{ cat_name }} fa-fw"></i> {{ cat | first | capitalize }}</h3></header>
+	<ul class="posts">
+		{% assign pages_list = cat[1] %}
+		{% for post in pages_list %}
+			{% if post.title != null %}
+			{% if group == null or group == post.group %}
+			<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+			{% endif %}
+			{% endif %}
+		{% endfor %}
+		{% assign pages_list = nil %}
+		{% assign group = nil %}
+	</ul>
+    {% endif %}
+	{% endfor %}
+</section>

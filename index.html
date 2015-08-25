@@ -4,38 +4,50 @@ title: Home
 ---
 
 <section class="home">
-  <header><h2>Home</h2></header>
-  <article id="about-me">
-    <header><h3>About me</h3></header>
-    <p>I am currently employed by <a href="http://www.normandie-univ.fr/">Normandie Université</a> as a R&amp;D engineer, to work on the <a href="http://plair.univ-rouen.fr/">PIVAJ</a> project.
-    I am integrated to the <abbr title="Documents&amp;Learning">DocApp</abbr> team of the <a href="http://www.litislab.eu"><abbr title="Computer science, information technology and systems laboratory">LITIS</abbr></a> laboratory.</p>
+	<header><h2>Home</h2></header>
+	<article id="about-me">
+	<header><h3>About me</h3></header>
+	<p>I am currently employed by <a href="http://www.normandie-univ.fr/">Normandie Université</a> as a R&amp;D engineer, to work on the <a href="http://plair.univ-rouen.fr/"><abbr title="Newspapers Archives Indexing and Visualization Platform">PIVAJ</abbr></a> project.
+	I am integrated to the <a href="http://www.litislab.fr/equipe/docapp/"><abbr title="Documents&amp;Learning">DocApp</abbr></a> team of the <a href="http://www.litislab.eu"><abbr title="Computer science, information technology and systems laboratory">LITIS</abbr></a> laboratory.</p>
 
-    <div class="logos">
-      <img src="img/litis.png" alt="LITIS logo"/>
-      <img src="img/normandie_univ.png" alt="Normandie Université logo"/>
-    </div>
-    <p>My research interests include:
-    <ul>
-      <li>Machine learning: (deep) neural networks, <abbr title="Conditional random fields">CRFs</abbr></li>
-      <li>Document analysis: physical and logical layout analysis, <abbr title="Optical character recognition">OCR</abbr></li>
-      <li>Graph-based <abbr title="Pattern recognition">PR</abbr>: graph edit distance, error-tolerant subgraph matching</li>
-    </ul>
-    You may want to visit my <a href="https://scholar.google.fr/citations?user={{ site.author.scholar }}">Google Scholar</a> and <a href="http://orcid.org/{{ site.author.orcid }}">ORCID</a> profiles.
-    </p>
-  </article>
+	<div class="logos">
+		<img src="img/litis.png" alt="LITIS logo"/>
+		<img src="img/normandie_univ.png" alt="Normandie Université logo"/>
+	</div>
+	<p>My research interests include:
+	<ul>
+		<li>Machine learning: (deep) neural networks, <abbr title="Conditional random fields">CRFs</abbr></li>
+		<li>Document analysis: physical and logical layout analysis, <abbr title="Optical character recognition">OCR</abbr></li>
+		<li>Graph-based <abbr title="Pattern recognition">PR</abbr>: graph edit distance, error-tolerant subgraph matching</li>
+	</ul>
+	<br />
+	You may want to visit my profiles on :
+	<ul class="no-bullets">
+		<li><img class="favicon" src="https://scholar.google.com/favicon.ico" alt="Google Scholar logo"/> <a href="https://scholar.google.fr/citations?user={{ site.author.scholar }}">Google Scholar</a></li>
+		<li><img class="favicon" src="https://orcid.org/favicon.ico" alt="ORCID logo"/> <a href="http://orcid.org/{{ site.author.orcid }}"><abbr title="Open Researcher and Contributor ID ">ORCID</abbr></a></li>
+		<li><img class="favicon" src="https://www.researchgate.net/favicon.ico" alt="ORCID logo"/> <a href="https://www.researchgate.net/profile/{{ site.author.researchgate }}">ResearchGate</abbr></a></li>
+		<li><img class="favicon" src="https://www.linkedin.com/favicon.ico" alt="LinkedIn logo"> <a href="https://www.linkedin.com/profile/view?id={{ site.author.linkedin }}">LinkedIn</a></li>
+		<li><img class="favicon" src="https://github.com/favicon.ico" alt="GitHub logo"> <a href="https://github.com/{{ site.author.github }}">GitHub</a></li>
+	</ul>
+	</p>
+	</article>
 
-  <article id="recent">
-    <header><h3>Recent news</h3></header>
-    <ul class="posts">
-      {% for post in site.posts offset:0 limit:5 %}
-        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
-  </article>
+	<article id="recent">
+	<header><h3>Recent posts</h3></header>
+	<ul class="posts no-bullets">
+		{% for post in site.posts offset:0 limit:5 %}
+		<li><i class="fa fa-{{ post.category }} fa-fw"></i> <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+		{% endfor %}
+	</ul>
+	</article>
+	<div class="widgets">
+		{% include category-cloud.html %}
+		{% include tag-cloud.html %}
+	</div>
 </section>
 <aside>
-  <iframe class="gmaps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5636846.174691154!2d1.6429054893194008!3d46.381959582743775!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x99721d01c683ed03!2sLITIS!5e0!3m2!1sfr!2sfr!4v1433692707902" display="block" frameborder="0" style="border:0"></iframe>
-  <br/>
-  <a width="300px" display="block" class="twitter-timeline" href="https://twitter.com/julien_lerouge" data-widget-id="607546942650875905">Tweets de @julien_lerouge</a>
-  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	<iframe class="gmaps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5636846.174691154!2d1.6429054893194008!3d46.381959582743775!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x99721d01c683ed03!2sLITIS!5e0!3m2!1sfr!2sfr!4v1433692707902" display="block" frameborder="0" style="border:0"></iframe>
+	<br/>
+	<a width="300px" display="block" class="twitter-timeline" href="https://twitter.com/julien_lerouge" data-widget-id="607546942650875905">Tweets de @julien_lerouge</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </aside>

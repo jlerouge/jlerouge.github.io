@@ -1,0 +1,24 @@
+---
+layout: default
+title: Tags
+---
+
+<section class="tags">
+  <header><h2>Tags</h2></header>
+	{% for tag in site.tags %}
+	<article class="tag" id="{{ tag | first | split: " " | first }}">
+	<header><h3>{{ tag | first | capitalize }}</h3></header>
+	<ul class="posts no-bullets">
+		{% assign pages_list = tag[1] %}
+		{% for post in pages_list %}
+			{% if post.title != null %}
+			{% if group == null or group == post.group %}
+			<li><i class="fa fa-{{ post.category }} fa-fw"></i> <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+			{% endif %}
+			{% endif %}
+		{% endfor %}
+		{% assign pages_list = nil %}
+		{% assign group = nil %}
+	</ul>
+	{% endfor %}
+</section>

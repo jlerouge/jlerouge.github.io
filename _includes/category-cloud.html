@@ -1,0 +1,12 @@
+<aside class="cloud" id="category-cloud">
+    <header><h4>Popular categories</h4></header>
+    <div class="round-border">
+    {% for category in site.categories %}
+        <span style="font-size: {{ category | last | size | times: 50 | divided_by: site.categories.size | plus: 70 }}%">
+            <a href="/category/#{{ category | first }}">
+                {{ category | first | capitalize }}
+            </a>
+        </span>
+    {% endfor %}
+    </div>
+</aside>
