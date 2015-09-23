@@ -212,6 +212,13 @@ pre code {
 .no-bullets {
 	list-style-type: none;
 }
+.profiles {
+	width: 100%;
+}
+.profiles li {
+	display: inline;
+	margin: 4px;
+}
 .collapse{
   display:inline;
 }
