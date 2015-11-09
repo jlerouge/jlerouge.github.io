@@ -1,0 +1,47 @@
+---
+layout: default
+title: News
+---
+
+<section class="publications">
+  <header><h2>Publications</h2></header>
+  {% assign first_year = "2015" %}
+  {% capture today_year %}{{ site.time | date: '%Y' }}{% endcapture %}
+
+  {% for i in (first_year..today_year) reversed %}
+  {% capture list_year %}{{ i }}{% endcapture %}
+  <article class="publication" id="{{ list_year }}">
+  <header><h3>{{ list_year }}</h3></header>
+  <ul class="posts no-bullets">
+  {% for post in site.posts reversed %}
+  {% capture post_id %}{{ forloop.index }}{% endcapture %}
+  {% if post.category contains "publication" %}
+  {% capture post_year %}{{ post.date | date: '%Y' }}{% endcapture %}
+  {% if list_year == post_year %}
+  {% assign id = post.id | split: "/" | last %}
+    <li><i class="fa fa-publication"></i>
+        {% for author in post.authors %}{% if forloop.last %} and {% elsif forloop.first %}{% else %}, {% endif %}{% capture author_id %}{{ author | split: "@" | first }}{% endcapture %}{{ site.coauthors[author_id].name }}{% endfor %},
+        <a href="{{ post.url }}">"{{ post.title }}"</a>
+        {% if post.refs != null %}, {{ post.refs }}{% endif %}.
+        {% if post.doi != null %}
+            <a href="//dx.doi.org/{{ post.doi }}"/><i class="fa fa-external-link"></i></a>
+        {% endif %}
+        {% if post.pdf %}
+            <a href="/pdf/{{ id }}.pdf"/><i class="fa fa-file-pdf-o"></i></a>
+        {% endif %}
+        {% if post.bibtex %}
+            <label class="collapse" for="bibtex{{ post_id }}"><a><i class="fa fa-quote-left fa-sup"></i>BibTeX<i class="fa fa-quote-right fa-sup"></i></a></label>
+            <input id="bibtex{{ post_id }}" type="checkbox">
+            {% highlight tex %}
+            {% include /bibtex/{{id}}.bib %}
+            {% endhighlight %}
+        {% endif %}
+    </li>
+    <br/>
+
+  {% endif %}
+  {% endif %}
+  {% endfor %}
+  </ul>
+  {% endfor %}
+</section>
