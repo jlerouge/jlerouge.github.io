@@ -2,14 +2,14 @@ name: Julien Lerouge
 markdown: redcarpet
 safe: true
 lsi: false
-highlighter: pygments
+highlighter: rouge
 url: http://julien.lerouge.me
 paginate: 5
 paginate_path: "blog/page:num"
 author:
     pseudo: jlerouge
     display_name: Julien Lerouge
-    job: R&D engineer @ <a href="http://www.litislab.fr">LITIS</a> laboratory
+    job: R&D engineer @ <a href="http://www.a2ia.com">A2iA</a>
     activity: <ul class="no-bullets"><li><a href="http://en.wikipedia.org/wiki/Machine_learning">Machine learning</a></li><li><a href="http://en.wikipedia.org/wiki/Document_layout_analysis">Document layout analysis</a></li></ul>
     github: jlerouge
     twitter: julien_lerouge
@@ -21,6 +21,10 @@ author:
     researchgate: Julien_Lerouge2
 
 coauthors:
+    jle:
+        name: J. Lerouge
+        url: http://julien.lerouge.me
+        email: julien.lerouge@a2ia.com
     jl:
         name: J. Lerouge
         url: http://julien.lerouge.me
