@@ -76,6 +76,7 @@ body > .content {
 	background-color: rgba(255, 255, 255, 0.3);
 	margin-top: -200px;
 	padding-top: 200px;
+    /*border: black 1px solid;*/
 }
 body > footer {
 	max-width: 80em;
@@ -174,8 +175,13 @@ pre code {
 .logos {
 	text-align: center;
 }
-.logos > img {
-	height: 60px;
+.logos > a > img {
+    background: rgba(255, 255, 255, 0.5);
+	padding: 8px;
+	border-radius: 16px;
+	-moz-border-radius: 16px;
+	-webkit-border-radius: 16px;
+	height: 96px;
 	margin: 8px;
 }
 .favicon {

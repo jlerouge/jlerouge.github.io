@@ -7,16 +7,16 @@ title: Home
 	<header><h2>Home</h2></header>
 	<article id="about-me">
 	<header><h3>About me</h3></header>
-	<p>I am currently employed by <a href="http://www.a2ia.com/">A2iA</a> as a R&amp;D engineer.</p>
+	<p>I am currently employed by <a href="http://www.a2ia.com/">A2iA</a> as a R&amp;D engineer, in the Projects department.</p>
 
 	<div class="logos">
-		<img src="img/a2ia.png" alt="A2iA logo"/>
+		<a href="http://www.a2ia.com/"><img src="img/a2ia.png" alt="A2iA logo"/></a>
 	</div>
 	<p>My research interests include:
 	<ul>
-		<li>Machine learning: <abbr title="Deep neural networks">DNN</abbr>, <abbr title="Conditional random fields">CRF</abbr>, &hellip;</li>
-		<li>Document processing : <abbr title="Document layout analysis">DLA</abbr>, <abbr title="Optical character recognition">OCR</abbr></li>
-		<li>Graph-based <abbr title="Pattern recognition">PR</abbr>: <abbr title="Graph edit distance">GED</abbr>, error-tolerant subgraph matching</li>
+		<li><u>Machine learning</u>: deep/recurrent/convolutional neural networks, conditional random fields&hellip;</li>
+		<li><u>Document processing</u>: document layout analysis, optical character recognition&hellip;</li>
+		<li><u>Graph-based pattern recognition</u>: graph edit distance, error-tolerant subgraph matching&hellip;</li>
 	</ul>
 	<br />
 	You may want to visit my profiles on :
@@ -31,7 +31,7 @@ title: Home
 	</article>
 
 	<article id="recent">
-	<header><h3>Recent posts</h3></header>
+	<header><h3>Recent publications</h3></header>
 	<ul class="posts no-bullets">
 		{% for post in site.posts offset:0 limit:5 %}
 		<li><i class="fa fa-{{ post.category }} fa-fw"></i> <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
@@ -39,13 +39,12 @@ title: Home
 	</ul>
 	</article>
 	<div class="widgets">
-		{% include category-cloud.html %}
 		{% include tag-cloud.html %}
 	</div>
 </section>
 <aside>
 	<iframe class="gmaps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d41998.48687598671!2d2.3206683474517145!3d48.86001371884225!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3ffb63eb6aae0286!2sA2iA!5e0!3m2!1sfr!2sfr!4v1462697050347" display="block" frameborder="0" style="border:0"></iframe>
-	<br/>
+    <br/>
 	<a width="300px" display="block" class="twitter-timeline" href="https://twitter.com/julien_lerouge" data-widget-id="607546942650875905">Tweets de @julien_lerouge</a>
 	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </aside>
