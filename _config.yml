@@ -31,11 +31,11 @@ coauthors:
         email: julien.lerouge@litislab.fr
     cc:
         name: C. Chatelain
-        url: http://clement.chatelain.free.fr/
+        url: http://pagesperso.litislab.fr/cchatelain/
         email: clement.chatelain@insa-rouen.fr
     rh:
         name: R. Hérault
-        url: http://asi.insa-rouen.fr/enseignants/~rherault/
+        url: http://pagesperso.litislab.fr/rherault/
         email: romain.herault@insa-rouen.fr
     rm:
         name: R. Modzelewski
@@ -43,9 +43,11 @@ coauthors:
         email: romain.modzelewski@chb.unicancer.fr
     fj:
         name: F. Jardin
+        url: http://www.becquerel.fr/people/fabrice-jardin/
+        email: hematologie@chb.unicancer.fr
     sa:
         name: S. Adam
-        url: http://www.litislab.eu/Members/sadam
+        url: http://pagesperso.litislab.fr/sebadam/
         email: sebastien.adam@univ-rouen.fr
     ph:
         name: P. Héroux
@@ -53,25 +55,40 @@ coauthors:
         email: pierre.heroux@univ-rouen.fr
     mh:
         name: M. Hammami
-        email: maroua.hammami@etu.univ-rouen.fr
+        url: https://fr.linkedin.com/in/maroua-hammami-3a5a9358
+        email: hammamimaroua@gmail.com
     pt:
         name: P. Tranouez
-        url: http://oldwww.litislab.eu/Members/ptranouez
+        url: http://pagesperso.litislab.fr/ptranouez/
         email: pierrick.tranouez@univ-rouen.fr
     sn:
         name: S. Nicolas
         email: stephane.nicolas@univ-rouen.fr
     tp:
         name: T. Paquet
-        url: http://thierry.paquet.free.fr
+        url: http://pagesperso.litislab.fr/tpaquet/
         email: thierry.paquet@univ-rouen.fr
     plb:
         name: P. Le Bodic
+        url: https://scholar.google.fr/citations?user=wQcDC-YAAAAJ
         email: lebodic@gatech.edu
     za:
         name: Z. Abu-Aisheh
+        url: https://www.researchgate.net/profile/Zeina_Abu-Aisheh
+        email: zeina.abu-aisheh@univ-tours.fr
     rr:
         name: R. Raveaux
+        url: http://romain.raveaux.free.fr/
+        email: romain.raveaux@univ-tours.fr
+    jk:
+        name: J. Kraut
+    mm:
+        name: M. Mehri
+
+    pg:
+        name: P. Gomez-Kramer
+    rmu:
+        name: R. Mullot
 
 affiliations:
     litis-insa: Normandie Université, LITIS (EA 4108-FR CNRS 3638), INSA de Rouen, 76800 Saint-Étienne-du-Rouvray, France
