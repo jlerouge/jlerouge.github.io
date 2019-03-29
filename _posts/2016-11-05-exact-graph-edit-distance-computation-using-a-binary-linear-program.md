@@ -13,7 +13,7 @@ authors:
     - ph@litis-univ-rouen
     - sa@litis-univ-rouen
 refs: "IAPR Joint International Workshops on Structural, Syntactic, and Statistical Pattern Recognition, pp. 485-495, 2016"
-doi: 10.1016/j.patrec.2015.11.026
+doi: 10.1007/978-3-319-49055-7_43
 pdf: true
 bibtex: true
 ---
