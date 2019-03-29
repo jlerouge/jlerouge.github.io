@@ -1,5 +1,5 @@
 name: Julien Lerouge
-markdown: redcarpet
+markdown: kramdown
 safe: true
 lsi: false
 highlighter: rouge
@@ -9,12 +9,11 @@ paginate_path: "blog/page:num"
 author:
     pseudo: jlerouge
     display_name: Julien Lerouge
-    job: R&D engineer @ <a href="http://www.a2ia.com">A2iA</a>
-    activity: <ul class="no-bullets"><li><a href="http://en.wikipedia.org/wiki/Machine_learning">Machine learning</a></li><li><a href="http://en.wikipedia.org/wiki/Document_layout_analysis">Document layout analysis</a></li><li><a href="http://en.wikipedia.org/wiki/OCR">Text recognition</a></li></ul>
+    job: R&D engineer @ <a href="http://www.a2ia.com">Mitek Systems Paris</a>
+    activity: <ul class="no-bullets"><li>Machine learning</li><li>Image processing</li><li>Document analysis</li><li>Text recognition</li></ul>
     github: jlerouge
     twitter: julien_lerouge
-    linkedin: 176494391
-    googleplus: JulienLerouge
+    linkedin: julien-lerouge
     gravatar: 8abcd6b65764dea142df693e8a2c9b0e
     scholar: qmL0h5cAAAAJ
     orcid: 0000-0003-0363-9304
@@ -39,7 +38,7 @@ coauthors:
         email: romain.herault@insa-rouen.fr
     rm:
         name: R. Modzelewski
-        url: https://www.linkedin.com/pub/romain-modzelewski/6/42/a50
+        url: https://www.linkedin.com/in/romain-modzelewski-a500426/
         email: romain.modzelewski@chb.unicancer.fr
     fj:
         name: F. Jardin
@@ -55,7 +54,7 @@ coauthors:
         email: pierre.heroux@univ-rouen.fr
     mh:
         name: M. Hammami
-        url: https://fr.linkedin.com/in/maroua-hammami-3a5a9358
+        url: https://www.linkedin.com/in/maroua-hammami-kolbl/
         email: hammamimaroua@gmail.com
     pt:
         name: P. Tranouez
@@ -63,6 +62,7 @@ coauthors:
         email: pierrick.tranouez@univ-rouen.fr
     sn:
         name: S. Nicolas
+        url: https://scholar.google.fr/citations?user=OT776bsAAAAJ&hl=fr
         email: stephane.nicolas@univ-rouen.fr
     tp:
         name: T. Paquet
@@ -84,11 +84,13 @@ coauthors:
         name: J. Kraut
     mm:
         name: M. Mehri
-
+        url: https://l3i.univ-larochelle.fr/Mehri-Maroua-ATER
     pg:
         name: P. Gomez-Kramer
+        url: https://l3i.univ-larochelle.fr/Gomez-Kramer-Petra-MCF
     rmu:
         name: R. Mullot
+        url: https://l3i.univ-larochelle.fr/Mullot-Remy-Pr
 
 affiliations:
     litis-insa: Normandie Université, LITIS (EA 4108-FR CNRS 3638), INSA de Rouen, 76800 Saint-Étienne-du-Rouvray, France
