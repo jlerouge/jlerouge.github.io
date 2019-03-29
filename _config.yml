@@ -94,6 +94,10 @@ coauthors:
     mc:
         name: M. Coustaty
         url: https://l3i.univ-larochelle.fr/Coustaty-Mickael-MCF
+    ws:
+        name: W. Swaileh
+        url: http://pagesperso.litislab.fr/wswaileh/
+        email: wassim.swaileh2@univ-rouen.fr
 
 affiliations:
     litis-insa: Normandie Université, LITIS (EA 4108-FR CNRS 3638), INSA de Rouen, 76800 Saint-Étienne-du-Rouvray, France
