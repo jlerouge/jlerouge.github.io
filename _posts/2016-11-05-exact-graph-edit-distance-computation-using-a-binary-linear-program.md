@@ -8,8 +8,8 @@ tags:
     - binary linear programming
 authors:
     - jl@litis-univ-rouen
-    - za@l3i
-    - rr@l3i
+    - za@li-tours
+    - rr@li-tours
     - ph@litis-univ-rouen
     - sa@litis-univ-rouen
 refs: "IAPR Joint International Workshops on Structural, Syntactic, and Statistical Pattern Recognition, pp. 485-495, 2016"

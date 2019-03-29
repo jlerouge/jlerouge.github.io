@@ -84,11 +84,12 @@ coauthors:
         name: J. Kraut
     mm:
         name: M. Mehri
-        email: maroua.mehri@gmail.com
         url: https://l3i.univ-larochelle.fr/Mehri-Maroua-ATER
+        email: maroua.mehri@univ-lr.fr
     pg:
         name: P. Gomez-Kramer
         url: https://l3i.univ-larochelle.fr/Gomez-Kramer-Petra-MCF
+        email: petra.gomez@univ-lr.fr
     rmu:
         name: R. Mullot
         url: https://l3i.univ-larochelle.fr/Mullot-Remy-Pr
@@ -96,6 +97,7 @@ coauthors:
     mc:
         name: M. Coustaty
         url: https://l3i.univ-larochelle.fr/Coustaty-Mickael-MCF
+        email: mickael.coustaty@univ-lr.fr
     ws:
         name: W. Swaileh
         url: http://pagesperso.litislab.fr/wswaileh/
@@ -109,3 +111,4 @@ affiliations:
     hematology-becquerel: Department of Clinical Hematology and INSERM U918 Unit, Henri Becquerel Cancer Center, 76000 Rouen, France
     isye-gatech: H. Milton Stewart School of Industrial and Systems Engineering, Georgia Institute of Technology, 765 Ferst Drive NW, Atlanta, 30332, USA
     l3i: L3I Laboratory, University of La Rochelle, av M. Crépeau, 17042 La Rochelle Cedex 1, France
+    li-tours: LI Tours, Avenue Jean Portalis, Tours, France
