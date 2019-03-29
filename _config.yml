@@ -91,6 +91,9 @@ coauthors:
     rmu:
         name: R. Mullot
         url: https://l3i.univ-larochelle.fr/Mullot-Remy-Pr
+    mc:
+        name: M. Coustaty
+        url: https://l3i.univ-larochelle.fr/Coustaty-Mickael-MCF
 
 affiliations:
     litis-insa: Normandie Université, LITIS (EA 4108-FR CNRS 3638), INSA de Rouen, 76800 Saint-Étienne-du-Rouvray, France

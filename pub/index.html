@@ -33,7 +33,7 @@ title: News
             <label class="collapse" for="bibtex{{ post_id }}"><a><i class="fa fa-quote-left fa-sup"></i>BibTeX<i class="fa fa-quote-right fa-sup"></i></a></label>
             <input id="bibtex{{ post_id }}" type="checkbox">
             {% highlight tex %}
-            {% include /bibtex/{{id}}.bib %}
+{% include /bibtex/{{id}}.bib %}
             {% endhighlight %}
         {% endif %}
     </li>
