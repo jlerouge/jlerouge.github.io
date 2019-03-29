@@ -74,9 +74,7 @@ body > .content {
 	margin: 0em auto 0em;
 	line-height: 1.5em;
 	background-color: rgba(255, 255, 255, 0.3);
-	margin-top: -200px;
-	padding-top: 200px;
-    /*border: black 1px solid;*/
+	display: table;
 }
 body > footer {
 	max-width: 80em;
@@ -183,6 +181,7 @@ pre code {
 	-webkit-border-radius: 16px;
 	height: 96px;
 	margin: 8px;
+	vertical-align: 90px;
 }
 .favicon {
 	width: 16px;
