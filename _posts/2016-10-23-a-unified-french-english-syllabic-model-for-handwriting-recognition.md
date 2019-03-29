@@ -12,7 +12,7 @@ authors:
     - jl@litis-univ-rouen
     - tp@litis-univ-rouen
 
-refs: "15th International Conference on Frontiers in Handwriting Recognition (ICFHR), 2016."
+refs: "15th International Conference on Frontiers in Handwriting Recognition (ICFHR), 2016"
 doi: 10.1109/ICFHR.2016.0104
 pdf: true
 bibtex: true

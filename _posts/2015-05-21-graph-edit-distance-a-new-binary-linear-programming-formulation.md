@@ -12,7 +12,7 @@ authors:
     - rr@l3i
     - ph@litis-univ-rouen
     - sa@litis-univ-rouen
-refs: "arXiv preprint arXiv:1505.05740, 2015."
+refs: "arXiv preprint arXiv:1505.05740, 2015"
 pdf: true
 bibtex: true
 ---

@@ -14,7 +14,7 @@ authors:
     - jl@litis-univ-rouen
     - pg@l3i
     - rmu@l3i
-refs: "13th International Conference on Document Analysis and Recognition (ICDAR), 2015."
+refs: "13th International Conference on Document Analysis and Recognition (ICDAR), 2015"
 doi: 10.1109/ICDAR.2015.7333737
 pdf: true
 bibtex: true

@@ -1,7 +1,7 @@
 ---
 layout:     publication
 title:      "Minimum Cost Subgraph Matching Using a Binary Linear Program"
-date:       2015-12-23 12:00:00
+date:       2016-02-01 12:00:00
 category:   publication
 tags:
     - graph matching
@@ -12,7 +12,7 @@ authors:
     - mh@litis-univ-rouen
     - ph@litis-univ-rouen
     - sa@litis-univ-rouen
-refs: "Pattern Recognition Letters, 2015."
+refs: "Pattern Recognition Letters, Volume 71, Pages 45-51, 2016"
 doi: 10.1016/j.patrec.2015.11.026
 pdf: true
 bibtex: true
