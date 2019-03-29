@@ -18,4 +18,4 @@ pdf: false
 bibtex: true
 ---
 
-Segmentation des muscles squelettiques sur coupe TDM par méthode de réseau de neurones profond de grande dimension... (WIP)
+Segmentation des muscles squelettiques sur coupe TDM par méthode de réseau de neurones profond de grande dimension.

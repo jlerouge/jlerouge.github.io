@@ -84,6 +84,7 @@ coauthors:
         name: J. Kraut
     mm:
         name: M. Mehri
+        email: maroua.mehri@gmail.com
         url: https://l3i.univ-larochelle.fr/Mehri-Maroua-ATER
     pg:
         name: P. Gomez-Kramer
@@ -91,6 +92,7 @@ coauthors:
     rmu:
         name: R. Mullot
         url: https://l3i.univ-larochelle.fr/Mullot-Remy-Pr
+        email: remy.mullot@univ-lr.fr
     mc:
         name: M. Coustaty
         url: https://l3i.univ-larochelle.fr/Coustaty-Mickael-MCF
@@ -100,8 +102,9 @@ coauthors:
         email: wassim.swaileh2@univ-rouen.fr
 
 affiliations:
-    litis-insa: Normandie Université, LITIS (EA 4108-FR CNRS 3638), INSA de Rouen, 76800 Saint-Étienne-du-Rouvray, France
-    litis-univ-rouen: LITIS EA 4108, BP 12, University of Rouen, 76801, Saint-Etienne du Rouvray, France
+    litis-insa: Normandie Université, LITIS EA 4108, INSA Rouen, 76800 Saint-Étienne-du-Rouvray, France
+    litis-univ-rouen: Normandie Université, LITIS EA 4108, University of Rouen, 76801, Saint-Etienne du Rouvray, France
+    latis: LATIS Laboratory, Sousse University, National Engineering School of Sousse, 4023, Sousse Erriadh, Tunisia
     nuclear-becquerel: Department of Nuclear Medicine, Henri Becquerel Cancer Center and Rouen University Hospital, 76000 Rouen, France
     hematology-becquerel: Department of Clinical Hematology and INSERM U918 Unit, Henri Becquerel Cancer Center, 76000 Rouen, France
     isye-gatech: H. Milton Stewart School of Industrial and Systems Engineering, Georgia Institute of Technology, 765 Ferst Drive NW, Atlanta, 30332, USA
