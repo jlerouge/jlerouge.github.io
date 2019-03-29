@@ -4,8 +4,9 @@ title:      "A bottom-up method using texture features and a graph-based represe
 date:       2015-08-23 12:00:00
 category:   publication
 tags:
-    - historical books
-    - categorization
+    - lettrine
+    - recognition
+    - classification
     - texture
     - graph
 authors:
