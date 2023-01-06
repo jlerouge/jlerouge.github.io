@@ -340,7 +340,7 @@ pre code {
 		font-size: 5vw;
 	}
 	.subtitle {
-		font-size: 0.8em;
+		font-size: 0.7em;
 	}
 	a.item {
 		font-size: 3vw;
@@ -373,7 +373,7 @@ pre code {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 540px;
+		width: 620px;
 		border: 1px solid grey;
 		border-radius: 8px;
 		-moz-border-radius: 8px;
