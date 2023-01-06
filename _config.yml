@@ -9,8 +9,8 @@ paginate_path: "blog/page:num"
 author:
     pseudo: jlerouge
     display_name: Julien Lerouge
-    job: R&D engineer @ <a href="http://www.a2ia.com">Mitek Systems Paris</a>
-    activity: <ul class="no-bullets"><li>Machine learning</li><li>Image processing</li><li>Document analysis</li><li>Text recognition</li></ul>
+    job: Senior Data Scientist @ <a href="http://www.quicksign.com">QuickSign</a>
+    activity: <ul class="no-bullets"><li>Deep learning</li><li>Image processing</li><li>Document analysis & understanding (classification, OCR, NLP)</li></ul>
     github: jlerouge
     twitter: julien_lerouge
     linkedin: julien-lerouge
